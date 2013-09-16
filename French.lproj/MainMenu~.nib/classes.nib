@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                calculateCheckSum = id; 
+                exportBarCode = id; 
+                makeBarCode = id; 
+                verifyEnteredNumber = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkSumField = id; 
+                createButton = id; 
+                exportButton = id; 
+                n0Field = id; 
+                n10Field = id; 
+                n11Field = id; 
+                n1Field = id; 
+                n2Field = id; 
+                n3Field = id; 
+                n4Field = id; 
+                n5Field = id; 
+                n6Field = id; 
+                n7Field = id; 
+                n8Field = id; 
+                n9Field = id; 
+                theView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {createBarCode = id; }; 
+            CLASS = codeBarView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theController = id; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}
