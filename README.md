@@ -1,4 +1,0 @@
-barCodeCreator
-==============
-
-barCodeCreator
